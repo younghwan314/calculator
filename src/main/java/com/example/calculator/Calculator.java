@@ -33,18 +33,15 @@ public class Calculator {
             switch (operator) {
 
                 case '+':
-                    int sum = fNum + sNum;
-                    result = sum;
+                    result = fNum + sNum;
                     break;
 
                 case '-':
-                    int min = fNum - sNum;
-                    result = min;
+                    result = fNum - sNum;
                     break;
 
                 case '*':
-                    int mul = fNum * sNum;
-                    result = mul;
+                    result = fNum * sNum;
                     break;
 
                 case '/':
@@ -52,8 +49,7 @@ public class Calculator {
                         System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다. 다시 입력하세요.");
                         continue;
                     }
-                    int div = fNum / sNum;
-                    result = div;
+                    result = fNum / sNum;
                     break;
 
                 default:
