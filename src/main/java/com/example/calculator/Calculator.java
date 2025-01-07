@@ -62,9 +62,9 @@ public class Calculator {
             System.out.print("더 계산하시겠습니까? (exit 입력시 종료): ");
 
             // exit 입력받을 변수
-            String finish = sc.next();
+            String exit = sc.next();
 
-            if (finish.equals("exit")) {
+            if (exit.equals("exit")) {
                 System.out.println("계산기를 종료하겠습니다.");
                 run = false;
             }
